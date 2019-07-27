@@ -27,7 +27,6 @@ project "uniform"
     kind "ConsoleApp"
     language "C++"
 
-    debugdir "resources"
     targetdir ("bin/" .. outputdir)
 	objdir ("bin/obj/" .. outputdir)
 
